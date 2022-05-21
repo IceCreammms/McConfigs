@@ -1,0 +1,395 @@
+### SHOP ###
+### NOT ALLOWED CATEGORY MATERIAL: SLIME_BALL, SNOW_BALL, BUCKET, LAVA_BUCKET
+shop:
+  armor:
+    item: DIAMOND_CHESTPLATE
+    name: "Armure"
+    order: 10
+    permission: bw.base
+    lore:
+    - "Achetez de l'armure !"
+    offers:
+    - price:
+      - type: CLAY_BRICK
+      reward:
+      - type: LEATHER_HELMET
+        meta:
+          ==: ItemMeta
+          meta-type: LEATHER_ARMOR
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 1
+    - price:
+      - type: CLAY_BRICK
+      reward:
+      - type: LEATHER_LEGGINGS
+        meta:
+          ==: ItemMeta
+          meta-type: LEATHER_ARMOR
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 1
+    - price:
+      - type: CLAY_BRICK
+      reward:
+      - type: LEATHER_BOOTS
+        meta:
+          ==: ItemMeta
+          meta-type: LEATHER_ARMOR
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 1
+    - price:
+      - type: IRON_INGOT
+        amount: 6
+      - type: GOLD_INGOT
+      reward:
+      - type: IRON_BOOTS
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "Chaussures Magnétiques"
+          lore:
+          - "Ces bottes vous procurent 75%"
+          - "de chances de ne prendre aucun recul!"
+    - price:
+      - type: IRON_INGOT
+      reward:
+      - type: CHAINMAIL_CHESTPLATE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 1
+    - price:
+      - type: IRON_INGOT
+        amount: 3
+      reward:
+      - type: CHAINMAIL_CHESTPLATE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 2
+    - price:
+      - type: IRON_INGOT
+        amount: 7
+      reward:
+      - type: CHAINMAIL_CHESTPLATE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 3
+    - price:
+      - type: GOLD_INGOT
+        amount: 10
+      reward:
+      - type: IRON_HELMET
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: Helm
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 2
+  swords:
+    item: DIAMOND_SWORD
+    name: "Epee"
+    order: 20
+    permission: bw.base
+    lore:
+    - "Achetez une epee pour tabasser la concurence"
+    offers:
+    - price:
+      - type: CLAY_BRICK
+        amount: 8
+      reward:
+      - type: STICK
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            KNOCKBACK: 1
+    - price:
+      - type: IRON_INGOT
+      reward:
+      - type: GOLD_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            DAMAGE_ALL: 1
+    - price:
+      - type: IRON_INGOT
+        amount: 3
+      reward:
+      - type: GOLD_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            DAMAGE_ALL: 2
+    - price:
+      - type: IRON_INGOT
+        amount: 7
+      reward:
+      - type: GOLD_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            DAMAGE_ALL: 3
+    - price:
+      - type: GOLD_INGOT
+        amount: 3
+      reward:
+      - type: IRON_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            DAMAGE_ALL: 2
+            KNOCKBACK: 1
+  bows:
+    item: 261
+    name: "Arcs"
+    order: 30
+    permission: bw.base
+    lore:
+    - "Prouvez votre valeur avec des magnifiques arcs"
+    offers:
+    - price:
+      - type: GOLD_INGOT
+        amount: 3
+      reward:
+      - type: BOW
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            ARROW_INFINITE: 1
+    - price:
+      - type: GOLD_INGOT
+        amount: 7
+      reward:
+      - type: BOW
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            ARROW_DAMAGE: 1
+            ARROW_INFINITE: 1
+    - price:
+      - type: GOLD_INGOT
+        amount: 13
+      reward:
+      - type: BOW
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            ARROW_DAMAGE: 2
+            ARROW_INFINITE: 1
+    - price:
+      - type: GOLD_INGOT
+        amount: 16
+      reward:
+      - type: BOW
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            ARROW_FIRE: 1
+            ARROW_INFINITE: 1
+    - price:
+      - type: GOLD_INGOT
+        amount: 15
+      reward:
+      - type: BOW
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            ARROW_KNOCKBACK: 1
+            ARROW_FIRE: 1
+            ARROW_INFINITE: 1
+    - price:
+      - type: GOLD_INGOT
+      reward:
+      - type: ARROW
+  eat:
+    item: GRILLED_PORK
+    name: "Bouffe"
+    order: 40
+    permission: bw.base
+    lore:
+    - "Une petite faim ? achetez donc a manger."
+    offers:
+    - price:
+      - type: CLAY_BRICK
+        amount: 4
+      reward:
+      - type: GRILLED_PORK
+        amount: 2
+    - price:
+      - type: IRON_INGOT
+        amount: 2
+      reward:
+      - type: GOLDEN_APPLE
+    - price:
+      - type: GOLD_INGOT
+        amount: 5
+      reward:
+      - type: BREAD
+        amount: 10
+  pickaxes:
+    item: DIAMOND_PICKAXE
+    name: "Pioches"
+    order: 50
+    permission: bw.base
+    lore:
+    - "Vous voulez détruire d'autre blocs ? Achetez une pioche !"
+    offers:
+    - price:
+      - type: CLAY_BRICK
+        amount: 4
+      reward:
+      - type: IRON_PICKAXE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            LOOT_BONUS_BLOCKS: 1
+    - price:
+      - type: IRON_INGOT
+        amount: 2
+      reward:
+      - type: IRON_PICKAXE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            LOOT_BONUS_BLOCKS: 2
+    - price:
+      - type: GOLD_INGOT
+      reward:
+      - type: IRON_PICKAXE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            LOOT_BONUS_BLOCKS: 3
+  blocks:
+    item: SANDSTONE
+    name: "Blocks"
+    order: 60
+    permission: bw.base
+    lore:
+    - "Quelque blocs pour rejoindre d'autre bases !"
+    offers:
+    - price:
+      - type: CLAY_BRICK
+      reward:
+      - type: SANDSTONE
+        damage: 2
+        amount: 2
+    - price:
+      - type: CLAY_BRICK
+        amount: 7
+      reward:
+      - type: ENDER_STONE
+    - price:
+      - type: IRON_INGOT
+        amount: 3
+      reward:
+      - type: IRON_BLOCK
+    - price:
+      - type: CLAY_BRICK
+        amount: 15
+      reward:
+      - type: GLOWSTONE
+        amount: 4
+    - price:
+      - type: CLAY_BRICK
+        amount: 4
+      reward:
+      - type: GLASS
+  usefulstuff:
+    item: TNT
+    name: "Utiles et fun"
+    order: 70
+    permission: bw.base
+    lore:
+    - "Vous cherchez des items utiles et fun ? c'est ici !"
+    offers:
+    - price:
+      - type: IRON_INGOT
+        amount: 3
+      reward:
+      - type: TNT
+    - price:
+      - type: GOLD_INGOT
+      reward:
+      - type: FLINT_AND_STEEL
+    - price:
+      - type: IRON_INGOT
+      reward:
+      - type: CHEST
+    - price:
+      - type: GOLD_INGOT
+      reward:
+      - type: ENDER_CHEST
+    - price:
+      - type: DIAMOND
+        amount: 1
+      reward:
+      - type: BLAZE_ROD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "Plateforme de sauvetage"
+          lore:
+          - "Ne tombez plus dans le vide"
+          - "grace a la plateforme de sauvetage"
+    - price:
+      - type: CLAY_BRICK
+        amount: 64
+      reward:
+      - type: BRICK
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "Mur de protection"
+          lore:
+          - "Besoin de protection rapidement ?"
+          - "Faite apparaitre un mur devant vous !"
+    - price:
+      - type: DIAMOND
+        amount: 2
+      reward:
+      - type: SULPHUR
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "Poudre de perlimpinpin"
+          lore:
+          - "Lors de l'utilisation de cette poudre vous"
+          - "serez teleporte a votre base"
+          - "Attention: un mouvement annule la teleportation"
+    - price:
+      - type: EMERALD
+        amount: 1
+      reward:
+      - type: MONSTER_EGG
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "Mouton explosion"
+          lore:
+          - "Le mouton explosion est la derniere"
+          - "cretion de nos labo ils se ruera sur"
+          - "vos ennemis et explosera"
+          internal: H4sIAAAAAAAAAONiYOBi4HTNK8ksqQxJTOdgYMpMYWANzkhNLWBgAAABt1TGHQAAAA==
+    - price:
+      - type: IRON_INGOT
+        amount: 5
+      reward:
+      - type: COMPASS
+schema-version: 1
