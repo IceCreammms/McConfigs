@@ -125,7 +125,7 @@ database:
   user: root
   password: secret
   table-prefix: bw_
-spectation-enabled: false
+spectation-enabled: true
 respawn-protection: 0
 allowed-commands:
 - /help
